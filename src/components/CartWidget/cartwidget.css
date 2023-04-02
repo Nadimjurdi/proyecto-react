@@ -1,0 +1,12 @@
+.carrito{
+    width: 2.5rem;
+    min-width: 30px;
+    border-radius: 50%;
+}
+.carrito_boton{
+    padding: 2px;
+    margin: 1px;
+}
+.carrito_boton:hover{
+    background-color: thistle;
+}
