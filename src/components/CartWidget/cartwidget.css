@@ -4,8 +4,9 @@
     border-radius: 50%;
 }
 .carrito_boton{
-    padding: 2px;
-    margin: 1px;
+    padding: 3px;
+    margin: 5px;
+    font-size: 1.2rem;
 }
 .carrito_boton:hover{
     background-color: thistle;

@@ -1,0 +1,14 @@
+h4{
+    text-align: center;
+}
+.contadores{
+    display: flex;
+    justify-content: center;
+}
+.botones{
+    padding: 3px;
+    margin: 5px;
+    font-size: 1.2rem;
+    display: flex;
+    
+}
