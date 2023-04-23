@@ -1,0 +1,16 @@
+.carta{
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 1px 1px 4px 2px gray;
+    margin: 5px;
+    overflow: hidden;
+}
+.carta:hover{
+    transform:scale(1.02);
+    transition-duration: 300ms;
+}
+
+.imagen_carta{
+    border-radius: 10px;
+    object-fit: cover;
+}

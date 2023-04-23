@@ -1,14 +1,16 @@
 import React, { useState }  from "react";
 import './ItemCount.css'
 
-export const ItemCount =()=>{
+export const ItemCount =({stock, initial, onAdd})=>{
 
-    const [counter,setCounter]= useState(0)
+    const [counter,setCounter]= useState(0)  
     const sumar=()=>{
-        setCounter(counter+1)
+        if(counter<stock){
+            setCounter(counter+1)
+        }
     }
     const restar=()=>{
-        if(counter>0){
+        if(counter>1){
         setCounter(counter-1)
     }
     }
@@ -23,6 +25,7 @@ export const ItemCount =()=>{
             <button onClick={sumar} className="botones">➕</button>
             <button onClick={restar} className="botones">➖</button>
             <button onClick={reset} className="botones">❌</button>
+            <button className="agregar botones" onClick={()=> onAdd(counter)} disabled={!stock}>Agregar al carrito</button>
         </div>   
         </>
     )

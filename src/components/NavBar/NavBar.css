@@ -1,7 +1,34 @@
+*{
+    text-decoration: none;       
+}
 .navbar-clase{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin: 0;
     padding-left: 2rem;
+    width: 100vw;
+    background-color: gray;
+}
+
+.navegador{
+    display: flex;
+    text-decoration: none;       
+
+}
+.navegador ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;       
+
+}
+.navegador ul li{
+    list-style: none;   
+    margin: 10px; 
+    color: aqua;
+    text-decoration: none;       
+
+}
+.navegador ul li Link{
+    text-decoration: inherit;       
+
 }
